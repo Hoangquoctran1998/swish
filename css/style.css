@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fleft {
+    float: left;
+}
+
+.fright {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+@font-face{
+    src: url(../css/font/MS\ Gothic.ttf);
+    font-family: MS Gothic;
+}
+
+.font-1{
+    font-family: MS Gothic;
+}
+.header{
+    text-align: center;
+    background-color: #37a44e;
+    color: #fff;
+    padding: 15px;
+    overflow: hidden;
+    font-size: 12px;
+}
+.head.fleft {
+    width: 25%;
+    background-color: #4ac163;
+}
+.nav.fleft {
+    width: 50%;
+}
+.sign-in.fleft{
+    width: 25%;
+}
+.nav ul{
+    text-align: center;
+}
+.nav ul li {
+    list-style-type: none;
+    display: inline-table;
+    margin-left: 20px;
+}
+.nav ul li a {
+    font-size: 10px;
+}
+a#home {
+    background-color: #298e3e;
+    border-radius: 15px;
+    padding: 5px 20px;
+    font-size: 12px
+}
+.sign-in.fleft a {
+    text-decoration: none;
+    font-size: 12px;
+    background: #f38933;
+    border-radius: 15px;
+    padding: 5px 25px;
+}
+
+.main .main1{
+    background-image: url(../images/backgroundok1.jpg);
+}
+h1 {
+    color: #37a44e;
+    font-size: 30px;
+}
+
+h3 {
+    color: #757575;
+    font-size: 20px;
+}
+.note.item1 {
+    margin-top: 350px;
+    display: inline-block;
+}
+img#image1 {
+    margin-top: 130px;
+    max-width: 600px;
+}
+.menu1 .item1.fleft {
+    margin-top: 114px;
+    width: 33%;
+}
+.menu1 .item1.fleft  > p#p1 {
+    font-size: 69px;
+    color: #37a44e;
+    text-align: center;
+}
+.menu1 > .item1.fleft  > p#p2 {
+    color: #757575;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+}
+.menu1 > .item1.fleft  > p#p3 {
+    color: #757575;
+    font-weight: 600;
+    text-align: center;
+}
+.menu1 > .item1.fleft  > p#p4 {
+    background-color: #37a44e;
+    border-radius: 35px;
+    margin-top: 65px;
+    padding: 20px 18px;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+}
+
+.menu5{
+    text-align: center;
+    padding-top: 20px;
+}
+.menu5 > .item2 .slector {
+    display: inline-table;
+}
+.menu5 > .item3 .table {
+    margin: 10;
+    width: 26.3333%;
+    background-color: #37a44e;
+    display: inline-table;
+    margin-left: 50px;
+}
